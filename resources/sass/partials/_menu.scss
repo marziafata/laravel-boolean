@@ -1,0 +1,25 @@
+.boolean-navbar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    img {
+        height: 100%;
+
+    }
+}
+
+.boolean__navbar__menu{
+    width: 100%;
+}
+
+ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+}
