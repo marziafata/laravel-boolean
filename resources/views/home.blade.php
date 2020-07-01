@@ -8,22 +8,24 @@
                     <h1 class="my-jumbo-title">
                         diventa <strong>sviluppatore web</strong>
                     </h1>
-                    <p>
+                    <p class="sottotitolo">
                         Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.
                     </p>
-                    <ul>
-                        <li>
-                            <span>6 mesi</span> di corso intensivo online in diretta
+                    <ul class="lista-jumbo">
+                        <li class="lista">
+                            <strong>6 mesi</strong> di corso intensivo online in diretta
                         </li>
-                        <li>
-                            <span>Nessuna competenza</span> di programmazione richiesta
+                        <li class="lista">
+                            <strong>Nessuna competenza</strong> di programmazione richiesta
                         </li>
-                        <li>
-                            Siamo certi del tuo successo, altrimenti <span>ti rimborsiamo</span>
+                        <li class="lista">
+                            Siamo certi del tuo successo, altrimenti <strong>ti rimborsiamo</strong>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="img-wrap col-md-6">
+                    <img class="img-jumbo" src="https://www.boolean.careers/images/homepage/pc-black-gif.gif" alt="web developer">
+                </div>
             </div>
         </div>
     </section>

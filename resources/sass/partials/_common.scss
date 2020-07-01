@@ -14,6 +14,10 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+a.nav-link:hover {
+    text-decoration: none;
     color: $colore_testo;
     border-bottom: 2px solid #61ce4e;
 }
