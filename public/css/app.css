@@ -10941,17 +10941,36 @@ a.text-dark:focus {
   height: 100%;
 }
 
-.boolean__navbar__menu {
-  width: 100%;
-}
-
-ul.navbar-nav {
+ul.menu {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 70%;
   height: 100%;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+ul.menu li {
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+ul.menu li.button {
+  height: 40px;
+  background: #61ce4e;
+  margin: 0 0 0 40px;
+  padding: 0 20px;
+  border-radius: 5px;
+  line-height: 40px;
+}
+
+ul.menu li.button:hover {
+  background: #73d462;
+}
+
+ul.menu a.cta {
+  color: white;
+  border-bottom: 0;
 }
 
 * {
@@ -10960,7 +10979,41 @@ ul.navbar-nav {
   color: #1b3c59;
 }
 
+body {
+  background-color: white;
+}
+
 a {
   color: #1b3c59;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1b3c59;
+  border-bottom: 2px solid #61ce4e;
+}
+
+section {
+  height: 496px;
+  background-color: brown;
+}
+
+.container {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.col-md-6 {
+  border: 1px solid black;
+  height: 100%;
+}
+
+h1.my-jumbo-title {
+  font-size: 58.5px;
+  line-height: 1.1;
+  font-weight: 300;
 }
 

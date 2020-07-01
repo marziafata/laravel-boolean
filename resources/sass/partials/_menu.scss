@@ -11,15 +11,33 @@
     }
 }
 
-.boolean__navbar__menu{
-    width: 100%;
-}
 
-ul.navbar-nav {
+
+ul.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    width: 70%;
     height: 100%;
+    list-style-type: none;
+    text-transform: uppercase;
+    li {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+    li.button {
+        height: 40px;
+        background: $verde_boolean;
+        margin: 0 0 0 40px;
+        padding: 0 20px;
+        border-radius: 5px;
+        line-height: 40px;
+    }
+
+    li.button:hover {
+        background: #73d462;
+    }
+    a.cta {
+        color: white;
+        border-bottom: 0;
+    }
 }

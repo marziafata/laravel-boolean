@@ -4,6 +4,16 @@
     color: $colore_testo;
 }
 
+body {
+    background-color: white;
+}
+
 a {
     color: $colore_testo;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $colore_testo;
+    border-bottom: 2px solid #61ce4e;
 }
