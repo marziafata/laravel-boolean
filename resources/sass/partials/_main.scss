@@ -1,6 +1,5 @@
-section {
+section.boolean-jumbo {
     padding: 80px 0;
-    height: 496px;
 }
 
 h1.my-jumbo-title {
@@ -37,5 +36,46 @@ ul.lista-jumbo {
     vertical-align: middle;
 }
 
+#dati-corsi {
+    background-color: $colore-testo;
+    padding: 40px 0;
+    .dati-wrap{
+        display: flex;
+        justify-content: space-between;
+        .dati {
+            flex-basis: 280px;
+            text-align: center;
+        }
+        h3.max-title {
+            font-size: 49.5px;
+            font-weight: 400;
+            color: white;
+        }
+        p.sottotitolo {
+            font-size: 19px;
+            color: white;
+        }
+    }
+}
 
+
+.boolean-jumbo.pag-corso {
+    padding: 130px 0;
+    position: relative;
+    div.layer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    div.color {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(27,60,89,.8);
+    }
+    .jumbo-content {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
 
