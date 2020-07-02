@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/corso', function () {
     return view('corso');
 })->name('corso');
+
+Route::get('/privacy', function () {
+    return view('privacy');
+})->name('privacy');

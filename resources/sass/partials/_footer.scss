@@ -1,0 +1,53 @@
+footer {
+    background-color: $colore-testo;
+    padding: 70px 0 30px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+
+.head-left img {
+    width: 200px;
+}
+
+.contatti p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+ul.link-footer {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul.link-footer li.items a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.bottom {
+    text-align: center;
+}
+
+div.icons a i {
+    background-color: #fff;
+    margin: 30px 20px;
+    font-size: 35px;
+}
+
+.indirizzo p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+
